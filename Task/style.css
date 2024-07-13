@@ -24,6 +24,9 @@
             text-decoration: none;
         }
 
+        .navbar nav a:hover{
+            color: rgb(241, 191, 191);
+        }
         header{
             background-color: #333;
             color: #fff;
@@ -41,6 +44,7 @@
             padding: 25px;
             padding-right: 50px;
             padding-top: 0px;
+            margin-top: -179px;
         }
 
         header h2{
@@ -50,7 +54,7 @@
         header p{
             text-align: right;
             padding-right: 100px;
-            color: #706b6b;
+            color: rgb(241, 191, 191);
             margin-top: -20px;
         }
         img{
@@ -64,7 +68,7 @@
         bottom: 0;
         width: 100%;
         height: 86px;
-        padding-top: 4px;
+        padding-top: 13px;
       }
 .para .info p{
   color: #333;
@@ -120,8 +124,63 @@ td {
     padding: 10px;
     background-color: #615353;
 }
+ header section{
+color: black;
+background-image: url('education.jpg');
+background-size: cover;
+border-radius: 15px;
+border: 2px solid ; 
+width: 35%; 
+margin-bottom: 0px;
+margin-left: 100px;
+margin-top: 7px;
+}
 
+header section:hover{
+    box-shadow:  10px 4px 8px rgba(247, 247, 247, 0.947);
+    transform: scale(1.1) rotate(360deg);
+    transition:cubic-bezier(0.55, 0.055, 0.675, 0.19) ;
+    cursor: pointer;
+}
+section{
+    display: inline-block;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-bottom: 0px;
+    margin: -10px;
+    padding-right: 40px;
+    padding: 0;
+}
 
+section .edu h2 h4{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+}
 
+section h4{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+section h6{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+header .head{
+    margin-right: 857px;
+}
+
+header .infor{
+    margin-right: 857px;
+    margin-bottom: 50px;
+}
 
        
