@@ -40,6 +40,7 @@ button{
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    transition: transform 0.2s ease;
 }
 
 .card img{
@@ -61,5 +62,5 @@ button{
 
 .card:hover{
     box-shadow: 10px 4px 8px rgba(35, 70, 159, 0.776);
-    transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) ;
 }
