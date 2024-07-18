@@ -1,0 +1,107 @@
+.gradient{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient( red, green, yellow);
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom right, red, blue);
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to top right, violet,purple);
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom left, red, orange);
+}
+.div5{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: linear-gradient(to top left, aqua, blue);
+}
+.div6{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: linear-gradient(to right, black, grey);
+}
+.div7{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: linear-gradient(to right, green, yellow);
+}
+.div8{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: linear-gradient(to top right , yellow, orange);
+}
+
+
+.div9{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: radial-gradient( blue, red,orange,grey);
+}
+.div10{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: radial-gradient(red 5%, black 50%, orange 80%);
+}
+.div11{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: radial-gradient(farthest-side at 60% 55% , red , yellow,black);
+}
+.div12{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: linear-gradient( orange, white, green);
+}
+.div13{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: radial-gradient(red 20%, yellow 40%, green 60%);
+}
+.div14{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: conic-gradient( blue, white, black);
+}
+.div15{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: conic-gradient(red, yellow,green,blue,black);
+    border-radius: 50%;
+}
+.div16{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background-image: repeating-conic-gradient(green 10% , yellow 20%);
+    border-radius: 50%;
+}
+
