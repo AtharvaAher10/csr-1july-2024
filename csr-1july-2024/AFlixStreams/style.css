@@ -16,7 +16,7 @@ body {
 .header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Images/back1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Images/back2.jpg');
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
@@ -56,7 +56,7 @@ nav button {
 }
 .header-content {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
