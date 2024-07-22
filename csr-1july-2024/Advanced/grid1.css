@@ -26,6 +26,8 @@
 @media only screen and (max-width: 800px) {
     body {
       background-color: rgb(34, 155, 196);
+      grid-template-rows: 2fr , 2fr , 2fr;
+      grid-template-columns: 0.9fr , 0.9fr , 0.9fr;
     }
 
     .grid-container > div {
