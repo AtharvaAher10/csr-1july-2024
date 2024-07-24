@@ -53,23 +53,6 @@ body {
     margin-left: 3px;
 }
 
-.certificate-wrapper .certificate-background .barcode img{
-    position: absolute;
-    height:50px;
-    width: 125px;
-    margin-left: 764px;
-    margin-top: -7px;
-
-}
-
-.certificate-wrapper .certificate-background .certificate-num{
-    position: absolute;
-    height:50px;
-    width: 290px;
-    margin-left: 475px;
-    margin-top: 10px;
-}
-
 .certificate-wrapper .certificate-background .triangle-topright {
     position: absolute;
     border-top: 100px solid transparent;
