@@ -149,7 +149,7 @@
     transform: rotate(90deg);
 }
 
-.certificate-wrapper .certificate-content {
+.certificate-wrapper  .certificate-content {
     top: 20mm;
     right: 20mm;
     bottom: 20mm;
