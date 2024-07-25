@@ -41,8 +41,8 @@
 
 .certificate-wrapper .certificate-background .triangle-topright {
     position: absolute;
-    border-top: 100px solid transparent;
-    border-right: 100px solid rgb(212, 78, 117);
+    border-top: 26.45mm solid transparent;
+    border-right: 26.45mm solid rgb(212, 78, 117);
     top: 0%;
     right: -2%;
     width: 10mm;
@@ -56,7 +56,7 @@
     left: 8%;
     width: 21.16mm;
     height: 6.61mm;
-    border-radius: 15px;
+    border-radius: 3.96mm;
     background-color: rgb(109, 81, 144);
     transform: rotate(135deg);
 }
@@ -161,19 +161,19 @@
     position: absolute;
     font-family: "Montserrat", sans-serif;
     top: 6mm;
-    left: 29mm;
+    left: 50mm;
     color: rgb(109, 81, 144);
     font-weight: bold;
-    font-size: 29mm;
+    font-size: 23mm;
 }
 
 .certificate-wrapper .certificate-content .subtitle{
     position: absolute;
     font-family: "Montserrat", sans-serif;
-    top: 43mm;
-    left: 58mm;
+    top: 37mm;
+    left: 72mm;
     color: rgb(220, 0, 173);
-    font-size: 4.23mm;
+    font-size: 3.23mm;
 }
 
 .certificate-wrapper .certificate-content .candidate-name{
@@ -188,10 +188,11 @@
 .certificate-wrapper .certificate-content .info p{
     position: absolute;
     top: 88mm;
-    left: 6mm;
+    left: 50mm;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: rgb(220, 0, 173);
+    text-align: center;
 }
 
 .certificate-wrapper .certificate-content .line1{
