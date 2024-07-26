@@ -149,7 +149,7 @@
     transform: rotate(90deg);
 }
 
-.certificate-wrapper  .certificate-content {
+.certificate-wrapper .certificate-content {
     top: 20mm;
     right: 20mm;
     bottom: 20mm;
@@ -167,7 +167,24 @@
     font-size: 23mm;
 }
 
-.certificate-wrapper .certificate-content .subtitle{
+.certificate-wrapper .certificate-content .sr-no {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    font-size: 16pt;
+    position: absolute;
+}
+
+.certificate-wrapper .certificate-content .date {
+    position: absolute;
+    left: auto;
+    top: 1mm;
+    right: 1mm;
+    font-size: 14pt;
+    position: absolute;
+}
+
+.certificate-wrapper .certificate-content .subtitle {
     position: absolute;
     font-family: "Montserrat", sans-serif;
     top: 37mm;
@@ -176,16 +193,16 @@
     font-size: 3.23mm;
 }
 
-.certificate-wrapper .certificate-content .candidate-name{
+.certificate-wrapper .certificate-content .candidate-name {
     position: absolute;
     top: 67mm;
     right: 72mm;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(193, 1, 152);
     font-size: 13.52mm;
 }
 
-.certificate-wrapper .certificate-content .info p{
+.certificate-wrapper .certificate-content .main-content p {
     position: absolute;
     top: 88mm;
     left: 50mm;
@@ -195,7 +212,7 @@
     text-align: center;
 }
 
-.certificate-wrapper .certificate-content .line1{
+.certificate-wrapper .certificate-content .line1 {
     position: absolute;
     top: 141mm;
     right: 17mm;
@@ -204,7 +221,7 @@
     background-color: rgb(220, 0, 173);
 }
 
-.certificate-wrapper .certificate-content .line2{
+.certificate-wrapper .certificate-content .line2 {
     position: absolute;
     width: 62.70mm;
     height: 0.79mm;
@@ -213,18 +230,18 @@
     left: 25mm;
 }
 
-.certificate-wrapper .certificate-content .signame1{
+.certificate-wrapper .certificate-content .sign-president-img {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     position: absolute;
+    top: 125mm;
+    left: 46mm;
     height: 13.22mm;
-    width: 13.22mm;
+    width: 18.22mm;
     color: rgb(220, 0, 173);
-    right: 41mm;
-    top: 142mm;
 }
 
-.certificate-wrapper .certificate-content .signame2{
+.certificate-wrapper .certificate-content .sign-president {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     position: absolute;
@@ -235,14 +252,29 @@
     color: rgb(220, 0, 173);
 }
 
-.signame2 img{
+.certificate-wrapper .certificate-content .sign-director-img {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     position: absolute;
-    height: 40px;
-    bottom: 16mm;
-
+    top: 125mm;
+    right: 46mm;
+    height: 13.22mm;
+    width: 18.22mm;
+    color: rgb(220, 0, 173);
 }
 
-.certificate-wrapper .certificate-content .log img{
+.certificate-wrapper .certificate-content .sign-director {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 142mm;
+    right: 46mm;
+    height: 13.22mm;
+    width: 13.22mm;
+    color: rgb(220, 0, 173);
+}
+
+.certificate-wrapper .certificate-content .certificate-logo img {
     position: absolute;
     height: 59.79mm;
     width: 79.37mm;
@@ -251,7 +283,7 @@
 
 }
 
-.certificate-wrapper .certificate-content .signame1 h3{
+.certificate-wrapper .certificate-content .date h3 {
     position: absolute;
     right: -5mm;
     top: -11mm;
@@ -259,7 +291,7 @@
     color: #303030;
 }
 
-.certificate-wrapper .certificate-content .cname{
+.certificate-wrapper .certificate-content .cname {
     position: absolute;
     font-family: "Teko", sans-serif;
     font-weight: 500;
@@ -269,7 +301,29 @@
     top: 139mm;
 }
 
+.certificate-wrapper .certificate-content .org-name {
+    position: absolute;
+    left: auto;
+    bottom: 10mm;
+    right: 60mm;
+    text-align: right;
+    font-size: 18pt;
+    font-weight: bold;
+    position: absolute;
+}
 
+.certificate-wrapper .certificate-content .org-address {
+    left: 51mm;
+    bottom: 0mm;
+    width: 170mm;
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    position: absolute;
+}
 
-
-
+.certificate-wrapper .certificate-content .org-address p {
+    margin-bottom: 0mm;
+    margin-top: 0mm;
+    text-align: center;
+}
