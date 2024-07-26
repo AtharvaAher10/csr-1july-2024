@@ -33,17 +33,15 @@ body{
     height: 50px;
     background-color: rgb(100, 100, 224);
     margin-left: 0%;
-    width: 101%;
+    margin-right: 0%;
+    width: 100%;
     
 }
-nav{
-    padding-left: 100px;
-}
 
-.navbar{
-    width : 100%
-}
+
+
 .navbar nav {
+  
     display: flex;
     align-items: start;
     justify-content: space-evenly;
@@ -65,10 +63,12 @@ nav{
     padding-bottom: 80px;
     justify-content: left;
     text-decoration: none;
+    transition: transform 0.3s ease;
 }
 
 .navbar nav a:hover{
     color: white;
+    transform: scale(1.1);
 }
 
 .navbar .logo #img1{
@@ -86,6 +86,14 @@ nav{
     margin-right: 0%;
     padding-right: 0%;
     margin-left: 50px;
+    transition: transform 0.3s ease;
+    }
+
+    .navbar .logo p:hover{
+      transform: scale(1.1);
+      color: white;
+      cursor: pointer;
+
     }
 
 button{
@@ -104,6 +112,8 @@ button:hover{
 }
 
 footer {
+  position: fixed;
+  display: flex;
     background-color: rgb(100, 100, 224);
     color: white;
     padding: 65px;
@@ -124,11 +134,12 @@ footer {
     color: white;
     font-size: 24px;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: transform 0.3s ease;
   }
 
   .social-icon:hover {
-    color: #ddd;
+    color: #130f0f;
+    transform: scale(1.4);
   }
 
   .location h4{
@@ -158,15 +169,24 @@ footer {
   }
 
   .containerImg{
+    justify-content: center;
     height: 100%;
     width: 100%;
+    display: flex;
   }
 .containerImg img{
+    transition: transform 0.3s ease;
+    border-radius: 20px; 
+    width: 25%;
     height: 200px;
-    border-radius: 60px; 
-    width: 300px; 
-    margin-top: 90px; 
-    margin-left: 90px;
+    margin-top: 100px; 
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.containerImg img:hover{
+  transform: scale(1.1);
 }
 
   .containerImg p:hover{
@@ -188,4 +208,36 @@ footer {
   .para{
     height: 100%;
     height: 20px;
+    padding: 0;
+    margin: 0;
+    padding-left: 50px;
+    justify-content: space-evenly;
+    margin-top: 20px;
   }
+
+  .header{
+    position: fixed;
+    width: 100%;
+  }
+
+  .section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 300px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .section h4{
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    transition: tansform 0.3s ease;
+  }
+  .section h4:hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+  }
+
+
