@@ -70,4 +70,26 @@ let companyName = ['tcs', 'infosys', 'mastercard', 'wipro'];
 let newCompany = companyName.splice(2,1, 'tiaa','tech');
 document.getElementById('splice1').innerHTML = "splice removes the element from its index position and return the removed element is : " + newCompany;
 
+// array map method //
+
+let a = [2,7,8,4,5,7];
+document.write("the orignal array is " + a);
+const b = a.map (function (x){
+  return x * 2;
+});
+
+document.getElementById('maparr').innerHTML =  "the array multiply by two using map is " + b;
+
+
+// array filter method //
+
+var newElemets = [2,5,4,6,7,2,9];
+// const m = newElemets.filter((filltering => filltering > 20))
+
+
+const m1 = newElemets.filter(newElemets => newElemets/2).filter(newElemets >2);
+document.getElementById('filter').innerHTML = m;
+
+
+
 
