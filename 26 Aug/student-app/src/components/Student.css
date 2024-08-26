@@ -1,0 +1,13 @@
+.container {
+    margin: 25px;
+    height: 80px;
+    width: 190mm;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: linear-gradient(to bottom left, #feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+}
+
+
+.stud{
+    color: white;
+}
